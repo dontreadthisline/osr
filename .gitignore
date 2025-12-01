@@ -5,3 +5,10 @@
 /.clang-tidy
 /.vs
 /out
+/.cache
+/test/data
+/test/monaco
+/test/switzerland
+/test/hamburg
+otest 
+compile_commands.json

@@ -29,7 +29,7 @@ TEST(extract, wa) {
   fs::create_directories(p, ec);
 
   constexpr auto const kTestDir = "/tmp/osr_test";
-  osr::extract(false, "test/map.osm", kTestDir,
+  osr::extract(false, "test/data/map.osm", kTestDir,
                "test/restriction_test_elevation/");
 
   auto w = osr::ways{"/tmp/osr_test", cista::mmap::protection::READ};
